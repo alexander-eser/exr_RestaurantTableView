@@ -28,8 +28,8 @@ public class rotate : MonoBehaviour
 
 		if (Input.GetMouseButton(0))
 		{
-			rotationX += Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
-			rotationY += Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
+			rotationX += Input.GetAxis("Mouse X") * sensX * Time.deltaTime * 30;
+			rotationY += Input.GetAxis("Mouse Y") * sensY * Time.deltaTime * 30;
 			rotationY = Mathf.Clamp(rotationY, minY, maxY);
 			transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
 		}
