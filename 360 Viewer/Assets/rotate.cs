@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class rotate : MonoBehaviour
 {
@@ -20,6 +21,11 @@ public class rotate : MonoBehaviour
 	float rotationY = 0.0f;
 	float rotationX = 0.0f;
 
+	void Start()
+    {
+		InputSystem.EnableDevice(Accelerometer.current);
+    }
+	
 	void Update()
 	{
 
@@ -29,7 +35,7 @@ public class rotate : MonoBehaviour
 		foreach (Touch touch in Input.touches)
 		{
 			//Input.GetMouseButton(0) || 
-			if (touch.phase == TouchPhase.Moved)
+			if (touch.phase == UnityEngine.TouchPhase.Moved)
 			{
 				rotationX += Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
 				rotationY += Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
@@ -46,8 +52,15 @@ public class rotate : MonoBehaviour
 			touch0 = Input.GetTouch(0).position;
 			touch1 = Input.GetTouch(1).position;
 			distance = Vector2.Distance(touch0, touch1);
-		}       
-		
-		
+		}
+
+		// Tutorial für Accelerometer: http://www.theappguruz.com/blog/learn-to-use-accelerometer-in-unity-in-10-mins
+		if (Accelerometer.current.enabled)
+        {
+			rotationX += Input.acceleration.x * sensX * Time.deltaTime;
+			rotationY += Input.acceleration.y * sensY * Time.deltaTime;
+			rotationY = Mathf.Clamp(rotationY, minY, maxY);
+			transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
+		}
 	}
 }
