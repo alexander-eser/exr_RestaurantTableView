@@ -22,9 +22,9 @@ public class rotate : MonoBehaviour
 	float rotationX = 0.0f;
 
 	void Start()
-    {
+    	{
 		InputSystem.EnableDevice(Accelerometer.current);
-    }
+    	}
 	
 	void Update()
 	{
@@ -56,7 +56,7 @@ public class rotate : MonoBehaviour
 
 		// Tutorial für Accelerometer: http://www.theappguruz.com/blog/learn-to-use-accelerometer-in-unity-in-10-mins
 		if (Accelerometer.current.enabled)
-        {
+        	{
 			rotationX += Input.acceleration.x * sensX * Time.deltaTime;
 			rotationY += Input.acceleration.y * sensY * Time.deltaTime;
 			rotationY = Mathf.Clamp(rotationY, minY, maxY);
