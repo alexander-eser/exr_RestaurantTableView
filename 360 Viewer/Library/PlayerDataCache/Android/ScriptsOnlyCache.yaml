@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -53,9 +54,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5742}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 6362}
+      Script: {instanceID: 3530}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -96,25 +97,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4346}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 5058}
+      Script: {instanceID: 2210}
     - Class: 114
-      Script: {instanceID: 5428}
+      Script: {instanceID: 2588}
     - Class: 114
-      Script: {instanceID: 5472}
+      Script: {instanceID: 2632}
     - Class: 114
-      Script: {instanceID: 5650}
+      Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 2866}
     - Class: 114
-      Script: {instanceID: 5742}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 5870}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 6186}
+      Script: {instanceID: 3354}
+    - Class: 114
+      Script: {instanceID: 3490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -595,4 +598,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Reservation.unity
   playerPath: C:/Users/alexa/Desktop/FHNW/Extended Reality/exr_RestaurantTableView/360
-    Viewer/RestaurantTableView.apk
+    Viewer/Viewer.apk
