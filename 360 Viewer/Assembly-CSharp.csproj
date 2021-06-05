@@ -52,11 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\ClickTable.cs" />
      <Compile Include="Assets\ButtonPress.cs" />
      <Compile Include="Assets\rotate.cs" />
      <Compile Include="Assets\Return.cs" />
-     <Compile Include="Assets\Text_Reservation.cs" />
+     <Compile Include="Assets\SubmittedShowHide.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

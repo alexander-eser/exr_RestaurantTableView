@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ButtonPress
     - Return
+    - SubmittedShowHide
     - rotate
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
@@ -99,6 +100,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
+      Script: {instanceID: 1728}
+    - Class: 114
       Script: {instanceID: 2210}
     - Class: 114
       Script: {instanceID: 2588}
@@ -118,6 +121,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3354}
     - Class: 114
       Script: {instanceID: 3490}
+    - Class: 114
+      Script: {instanceID: 39298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -275,12 +280,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ClickTable
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -592,7 +591,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Text_Reservation
+    className: SubmittedShowHide
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
