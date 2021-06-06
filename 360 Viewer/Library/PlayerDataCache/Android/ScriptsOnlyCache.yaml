@@ -55,7 +55,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2904}
     - Class: 114
       Script: {instanceID: 3530}
     - Class: 115
@@ -100,29 +100,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1728}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 2210}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2630}
     - Class: 114
-      Script: {instanceID: 2632}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2904}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 3036}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3420}
     - Class: 114
       Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 39298}
+      Script: {instanceID: 15260}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -540,6 +540,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SubmittedShowHide
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -586,12 +592,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SubmittedShowHide
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
